@@ -48,17 +48,17 @@ public class EscuchaVentana1 implements WindowListener
 	public static void main(String[] args)
 	{
 		new EventoCerrarVentana1();
-		delaySegundoParaProbar(2000);
-		System.exit(0);
+//		delaySegundoParaProbar(2000);
+//		System.exit(0);
 	}
-	private static void delaySegundoParaProbar(long miliSegundos)
-    {
-        try
-        {
-            Thread.sleep(miliSegundos);
-        }catch(InterruptedException e){
-        	System.out.println("no deberia fallara , java d shet ");
-        }
-    }
+//	private static void delaySegundoParaProbar(long miliSegundos)
+//    {
+//        try
+//        {
+//            Thread.sleep(miliSegundos);
+//        }catch(InterruptedException e){
+//        	System.out.println("no deberia fallara , java d shet ");
+//        }
+//    }
 
 }
